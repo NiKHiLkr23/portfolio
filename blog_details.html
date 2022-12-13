@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <!--=============== Remixicons ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== Css ===============-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/skins/color-1.css" />
+
+    <!--=============== Skin Colors ===============-->
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+  </head>
+  <body>
+    <!--=============== Header ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="index.html" class="nav__link ">portfolio</a>
+            </li>
+            
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+            
+          </ul>
+
+          <div class="nac__close" id="nav-close">
+            <i class="ri-class-fill"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== Blog Details ===============-->
+    <div class="blog__header"></div>
+
+    <section class="container">
+      <div class="blog__details">
+        <a href="index.html" class="back__to-home text-xs">
+          <i class="ri-arrow-left-line"> Back </i>
+        </a>
+
+        <h3 class="post__details-title text-lg">Comming Soon!</h3>
+        <p class="post__details-date text-sm">DD/MM/YYYY</p>
+        <p class="post__detials text-lg">       </p>
+        <p class="post__detials text-lg">       </p>
+        <p class="post__detials text-lg">       </p>
+      
+        <figure>
+          <img src="#" alt="" />
+          <figcaption class="text-sm">
+            <!-- figcaption -->
+          </figcaption>
+        </figure>
+
+        <p class="post__details text-lg">Post Details.</p>
+      
+        <div class="post__social-share">
+          <span class="post__share text-lg">Share post:</span>
+
+          <div class="post__solcial-links">
+            <a href="" class="post__share-link">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a href="" class="post__share-link">
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+            <a href="" class="post__share-link">
+              <i class="ri-github-box-fill"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Contact ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__content container">
+        <h2 class="section__title">Get in touch_</h2>
+        
+        <div class="contact__container grid">
+          <div class="contact__info">
+            <dl class="contact__list">
+              <dt>Phone:</dt>
+              <dd>+91-887-674-5643</dd>
+              <dt>gmail:</dt>
+              <dd>officialnikhilkr23@gmail.com</dd>
+            </dl>
+
+            <ul class="contact__socials">
+              <li>
+                <a href="" class="contact__social-link">Facebook</a>
+              </li>
+              <li>
+                <a href="" class="contact__social-link">Linkedin</a>
+              </li>
+              <li>
+                <a href="" class="contact__social-link">Github</a>
+              </li>
+              <li>
+                <a href="" class="contact__social-link">Bitbucket</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact__form">
+            <p class="contact__form-title">OR contact me here</p>
+
+            <form action="" id="contact-form">
+              <div class="contact__input-div">
+                <input name="name" type="text" placeholder="Your name" class="contact__input" id="contact-name" />
+              </div>
+
+              <div class="contact__input-div">
+                <input name="email" type="email" placeholder="Your e-mail" class="contact__input" id="contact-email" />
+              </div>
+
+              <div class="contact__input-div">
+                <textarea name="message" placeholder="Type your message here " class="contact__input textarea" id="message" cols='30' rows="10" ></textarea>
+              </div>
+
+              <p class="contact__message text-sm" id="contact-message">Message</p>
+              <button type="submit" class="button contact__button">SEND</button>
+
+            </form>
+
+            <p class="footer__copy">
+              &copy; 2022 Nikhil Kumar 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Style Switcher ===============-->
+    <div class="style__switcher">
+      <div class="style__switcher-toggler">
+        <i class="ri-paint-fill"></i>
+      </div>
+
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')">
+        
+          <svg width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <g>
+                <path fill="none" d="M0 0h24v24H0z"/>
+                <path d="M11.38 2.019a7.5 7.5 0 1 0 10.6 10.6C21.662 17.854 17.316 22 12.001 22 6.477 22 2 17.523 2 12c0-5.315 4.146-9.661 9.38-9.981z"/>
+            </g>
+        </svg>
+          </span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      </div>
+    </div>
+
+    <!--=============== Email Js ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!--=============== Js ===============-->
+    <script src="assets/js/common.js"></script>
+  </body>
+</html>

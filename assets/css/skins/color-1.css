@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #ffffff;
+  --primary-color-alt: #cfcdcd;
+  
+    /*========== Colors ==========*/
+
+  --nav-link-color: #fff;
+  --title-color: #ffffff;
+  --text-color: rgb(226, 218, 218);
+  --text-color-alt: rgb(159, 152, 152);
+  
+  --border-color: #3c3b3b;
+
+  --icon-background: rgb(166, 158, 158);
+  
+  --bg-color-alt: #7c7c7c;
+  --bg-color: #151515e6;
+  --linear-gradient: linear-gradient(
+    54deg,
+    #2d2d2de6 34%,
+    rgba(45, 45, 45, 0.9)
+  );
+}
+
+
