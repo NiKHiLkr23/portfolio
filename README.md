@@ -34,9 +34,9 @@ Happy Learning ✔
 
 ![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 #
-### This [website](https://nikhilkr23.github.io/portfolio_v1/index.html) is hosted using 
+### This [website](https://kumarnikhil.netlify.app/) is hosted using 
 
-* [GithubPages](https://pages.github.com/)
+* [netlify](https://www.netlify.com/)
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=NiKHiLkr23.portfolio_v1&left_color=blue&right_color=green)
 
