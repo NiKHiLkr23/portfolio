@@ -4,7 +4,7 @@
   <img alt="Logo" src="assets/img/logo2.png" width="100" />
 </div>
 <h1 align="center">
-<a href='https://kumarnikhil.netlify.app/'>  
+<a target='_blank' href='https://kumarnikhil.netlify.app/'>  
     Portfolio-v1  
 </a>
 </h1>
