@@ -3,11 +3,11 @@
 <div align="center">
   <img alt="Logo" src="assets/img/logo2.png" width="100" />
 </div>
-
-<a href='https://kumarnikhil.netlify.app/ '>  <h1 align="center">
+<h1 align="center">
+<a href='https://kumarnikhil.netlify.app/'>  
     Portfolio-v1  
-</h1>
 </a>
+</h1>
 
 <p align="center">
   Hi_<br>
